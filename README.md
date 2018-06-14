@@ -1,6 +1,5 @@
 # comp-prac
 
-## Contents
 * [Problem A](#a)
 * [Problem B](#b)
 * [Problem C](#c)
