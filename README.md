@@ -86,6 +86,7 @@
 
     SENDMOREMONKEYS (message)
     ACMSENDMOREMONK (key)
+    -----------------------------
     SGZVQBUQAFRWSLC (ciphertext)
 
 
