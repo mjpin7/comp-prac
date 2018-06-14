@@ -76,4 +76,35 @@
 
 
 ### <a name="c"></a>Problem C
-  
+    To encrypt a message, you first select a secret word – say “ACM" – and prepend it to the front of the
+    message. This longer string is truncated to the length of the message and called the key, and the nth
+    letter of the key is used to encrypt the nth letter of the original message. This encryption is done
+    by treating each letter in the key as a cyclic shift value for the corresponding letter in the message,
+    where ‘A’ indicates a shift of 0, ‘B’ a shift of 1, and so on. Using “ACM" as the secret word, we
+    would encrypt our message as follows:
+
+
+    SENDMOREMONKEYS (message)
+    ACMSENDMOREMONK (key)
+    SGZVQBUQAFRWSLC (ciphertext)
+
+
+    Note that the letter ‘E’ in the message was encrypted as ‘G’ the first time it was encountered (since
+    the corresponding letter in the key was ‘C’ indicating a shift of 2), but then as ‘Q’ and ‘S’ the next
+    two times.
+    Your task is simple: given a ciphertext and the secret word, you must determine the original message.
+
+###### Input
+    Input consists of two lines. The first contains the ciphertext and the second contains the secret word.
+    Both lines contain only uppercase alphabetic letters.  
+
+###### Output
+    Display the original message that generated the given ciphertext using the given secret word.
+
+
+###### Example
+
+| Input           | Output           |
+|-----------------|------------------|
+| SGZVQBUQAFRWSLC | SENDMOREMONKEYS  |
+| ACM             |                  |
