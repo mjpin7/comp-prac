@@ -43,8 +43,8 @@
 
 ###### Input
     Input begins with a positive integer n ≤ 100 indicating the number of trail sections. The following
-    *n* lines describe the trail sections from the beginning to the end of the trail. Each trail section is
-    described by two integers a * (50 ≤ a ≤ 50, 1 ≤ d ≤ 10000) indicating its angle of elevation in
+    n lines describe the trail sections from the beginning to the end of the trail. Each trail section is
+    described by two integers a (50 ≤ a ≤ 50, 1 ≤ d ≤ 10000) indicating its angle of elevation in
     degrees and the distance in meters along that section of the trail, respectively.
 
 ###### Output
