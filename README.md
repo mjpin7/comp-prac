@@ -23,15 +23,15 @@
 
 ###### Output
     You will have to output N lines, each containing the number b1 and b2 in that order, separated by one
-     space corresponding to that lines number to crypt
+    space corresponding to that lines number to crypt
 
 ###### Example
-        | Input  | Output |
-        | ------ | ------ |
-        |   3    |  3 5   |
-        |  265   |  6 3   |
-        |  111   |  6 3   |
-        |  1234  |  5 5   |
+    | Input | Output |
+    |-------|--------|
+    | 3     | 3 5    |
+    | 265   | 6 3    |
+    | 111   | 5 5    |
+    | 1234  |        |
 
 ### <a name="b"></a>Problem B
   
