@@ -1,4 +1,4 @@
-# comp-prac
+# Practice Programming Problems
 
 * [Problem A](#a)
 * [Problem B](#b)
