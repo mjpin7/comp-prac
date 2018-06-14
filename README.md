@@ -26,12 +26,13 @@
     space corresponding to that lines number to crypt
 
 ###### Example
-    | Input | Output |
-    |-------|--------|
-    | 3     | 3 5    |
-    | 265   | 6 3    |
-    | 111   | 5 5    |
-    | 1234  |        |
+
+| Input | Output |
+|-------|--------|
+| 3     | 3 5    |
+| 265   | 6 3    |
+| 111   | 5 5    |
+| 1234  |        |
 
 ### <a name="b"></a>Problem B
   
