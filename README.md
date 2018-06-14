@@ -26,23 +26,12 @@
      space corresponding to that lines number to crypt
 
 ###### Example
-        <table>
-            <tr>
-                <td>Input</td><td>Output</td>
-            </tr>
-            <tr>
-                <td>3</td><td>3 5</td>
-            </tr>
-            <tr>
-                <td>265</td><td>6 3</td>
-            </tr>
-            <tr>
-                <td>111</td><td>5 5</td>
-            </tr>
-            <tr>
-                <td>1234</td>
-            </tr>
-        </table>
+        | Input  | Output |
+        | ------ | ------ |
+        |   3    |  3 5   |
+        |  265   |  6 3   |
+        |  111   |  6 3   |
+        |  1234  |  5 5   |
 
 ### <a name="b"></a>Problem B
   
