@@ -17,12 +17,12 @@
     8. The encryption is the result of M xor (b1 ∗ b2) : 265 xor (3*5) = 262
 
 ###### Input
-    The first line will contain a number *N* which is the number of cases that you have to process. Each
-    of the following *N* Lines (0 < *N* ≤ 1000) will contain the number *M* (0 < *M* ≤ 9999, in decimal
+    The first line will contain a number N which is the number of cases that you have to process. Each
+    of the following N Lines (0 < N ≤ 1000) will contain the number M (0 < M ≤ 9999, in decimal
     representation) which is the number the student wants to encrypt.
 
 ###### Output
-    You will have to output *N* lines, each containing the number *b1* and *b2* in that order, separated by one
+    You will have to output N lines, each containing the number b1 and b2 in that order, separated by one
     space corresponding to that lines number to crypt
 
 ###### Example
@@ -42,9 +42,9 @@
     has become too tedious. So, you’ve decided to write a program to make the process easier.
 
 ###### Input
-    Input begins with a positive integer _n_ ≤ 100 indicating the number of trail sections. The following
+    Input begins with a positive integer n ≤ 100 indicating the number of trail sections. The following
     *n* lines describe the trail sections from the beginning to the end of the trail. Each trail section is
-    described by two integers *a d* (50 ≤ *a* ≤ 50, 1 ≤ *d* ≤ 10000) indicating its angle of elevation in
+    described by two integers a * (50 ≤ a ≤ 50, 1 ≤ d ≤ 10000) indicating its angle of elevation in
     degrees and the distance in meters along that section of the trail, respectively.
 
 ###### Output
